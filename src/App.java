@@ -33,7 +33,7 @@ public class App {
             }
             displayGuesses=displayBuff.toString();      
             System.out.println(displayGuesses);
-            System.out.println("Lives: "+lives);
+            System.out.println("Lives left: "+lives);
         }while(lives>0);
         System.out.println("Game over");       
     }
